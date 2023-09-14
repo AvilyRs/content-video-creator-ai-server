@@ -15,26 +15,32 @@ An application that can help content creators when generating creative titles an
 
 ### Technologies
 
-- *:fire: ViteJS | ReactJS*
-- *:fire: Tailwind*
-- *:fire: Shadcn UI*
-- *:fire: Radix UI*
-- *:fire: FFMpeg WASM (Web Assembly)*
+- *:fire: Fastify*
+- *:fire: Prisma ORM*
+- *:fire: TSX | Typescript*
+- *:fire: Zod*
 - *:fire: Vercel AI SDK*
+- *:fire: OpenAI*
 
 ### Cloning and starting the project
 
 Clone the project using the following url
 ```javascript
-  $ git clone https://github.com/AvilyRs/content-video-creator-ai-web.git
+  $ git clone https://github.com/AvilyRs/content-video-creator-ai-server.git
+```
+
+Seed the database with the following command
+```javascript
+  $ 
 ```
 
 Then run the following command
 ```javascript
-  $ npm run dev
+  $ npx prisma db seed
   // or
-  $ pnpm run dev
+  $ pnpm prisma db seed
 ```
+
 All ready!
 You can view the project at the url shown in your command line
 
