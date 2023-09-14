@@ -29,6 +29,11 @@ Clone the project using the following url
   $ git clone https://github.com/AvilyRs/content-video-creator-ai-server.git
 ```
 
+ATTENTION: Don't forgot to create a file named .env in the root project and populate it with:
+```javascript
+  OPENAI_KEY=<Your Open AI API key>
+```
+
 Seed the database with the following command
 ```javascript
   $ npx prisma db seed
@@ -43,8 +48,8 @@ Then run the server with the following command
   $ pnpm run dev
 ```
 
-All ready!
-Now you can access all routes with our frontend!
+
+Now you are ready and can access all routes with our frontend!
 
 See our CVC.AI Frontend: https://github.com/AvilyRs/content-video-creator-ai-web
 
