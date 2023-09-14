@@ -46,6 +46,6 @@ Then run the server with the following command
 All ready!
 Now you can access all routes with our frontend!
 
-ATTENTION: Don't forget to clone and run the server so that everything works
+See our CVC.AI Frontend: https://github.com/AvilyRs/content-video-creator-ai-web
 
 If there is anything you can help with the project, feel free to contribute ;)
