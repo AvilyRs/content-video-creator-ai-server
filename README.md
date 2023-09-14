@@ -31,18 +31,20 @@ Clone the project using the following url
 
 Seed the database with the following command
 ```javascript
-  $ 
-```
-
-Then run the following command
-```javascript
   $ npx prisma db seed
   // or
   $ pnpm prisma db seed
 ```
 
+Then run the server with the following command
+```javascript
+  $ npm run dev
+  // or
+  $ pnpm run dev
+```
+
 All ready!
-You can view the project at the url shown in your command line
+Now you can access all routes with our frontend!
 
 ATTENTION: Don't forget to clone and run the server so that everything works
 
